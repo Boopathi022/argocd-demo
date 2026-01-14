@@ -45,13 +45,13 @@ Nginx – Sample application
 
 📁 Project Structure
 
-nginx-helm/
-├── Chart.yaml
-├── values.yaml
-└── templates/
-    ├── deployment.yaml
-    ├── service.yaml
-    └── _helpers.tpl
+         nginx-helm/
+         ├── Chart.yaml
+         ├── values.yaml
+         └── templates/
+         ├── deployment.yaml
+         ├── service.yaml
+         └── _helpers.tpl
 
 
 
@@ -156,6 +156,7 @@ III Year IT Student
 Aspiring Cloud & DevOps Engineer
 
 📎 GitHub: https://github.com/Boopathi022
+
 📎 LinkedIn: https://www.linkedin.com/in/mahendra-boopathi-r-6473392a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 
