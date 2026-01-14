@@ -22,9 +22,9 @@ Manual kubectl apply is completely eliminated
 
 🏗️ Architecture
 
-Developer → GitHub Repository → Argo CD → Kubernetes Cluster
-                    |
-                  Helm
+     Developer → GitHub Repository → Argo CD → Kubernetes Cluster
+                      |
+                     Helm
 
 
 🔧 Tech Stack
@@ -93,13 +93,13 @@ Example: Scaling the application
 
 Step 1: Update values.yaml
 
-replicaCount: 4
+    replicaCount: 4
 
 Step 2: Push changes to Git
 
-git add values.yaml
-git commit -m "Scale application to 4 replicas"
-git push
+    git add values.yaml
+    git commit -m "Scale application to 4 replicas"
+    git push
 
 Step 3: Argo CD automatically:
 
@@ -110,8 +110,8 @@ Scales pods without manual intervention
 
 📊 Verification
 
-kubectl get pods
-kubectl get svc
+    kubectl get pods
+    kubectl get svc
 
 Argo CD Dashboard shows:
    ✅ Synced
@@ -151,9 +151,9 @@ Secure secrets using Kubernetes Secrets or Vault
 
 👤 Author
 
-Mahendra Boopathi R
-III Year IT Student
-Aspiring Cloud & DevOps Engineer
+     Mahendra Boopathi R
+     III Year IT Student
+     Aspiring Cloud & DevOps Engineer
 
 📎 GitHub: https://github.com/Boopathi022
 
