@@ -162,6 +162,6 @@ Secure secrets using Kubernetes Secrets or Vault
 
 ⭐ Final Note
 
-This project is part of my continuous journey to become a production-ready Cloud & DevOps Engineer by building real-world systems instead of just completing courses.
+This project is part of my continuous journey to become a production-ready Cloud & DevOps Engineer by building real-world systems instead of just completing courses
 
 
